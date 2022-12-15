@@ -19,6 +19,12 @@ docker compose up -d
 ## Running Docker When Machine Restart
 sudo chmod 666 /var/run/docker.sock
 
+
+## Login
+http://IP:9000<br>
+Default admin credentials are admin@thehive.local / secret
+
+
 ## Credit
 Script By Cyber Threat Hunting Team<br>
 Direktorat Operasi Keamanan Siber<br>
