@@ -30,7 +30,7 @@ services:
       - "--no-config-cortex"
 
   cassandra:
-    image: 'cassandra:4'
+    image: 'cassandra:latest'
     mem_limit: 1000m
     ports:
       - "9042:9042"
