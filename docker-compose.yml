@@ -31,13 +31,14 @@ services:
 
   cassandra:
     image: 'cassandra:latest'
-    mem_limit: 1000m
+    # mem_limit: 1000m
     ports:
       - "9042:9042"
     environment:
       - CASSANDRA_CLUSTER_NAME=TheHive
     volumes:
       - cassandradata:/var/lib/cassandra
+
 
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.16.2
